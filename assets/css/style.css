@@ -94,7 +94,7 @@ p {
 .menu ul li {
   float: left;
   padding: 10px 15px;
-  background: url(images/border_r.png) no-repeat;
+  background: url(../images/border_r.png) no-repeat;
   background-position: center right;
 }
 
@@ -103,7 +103,7 @@ p {
 }
 
 .menu ul li:hover {
-  background: url(images/menu_li_hover.png) no-repeat;
+  background: url(../images/menu_li_hover.png) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -153,6 +153,10 @@ p {
   font-size: 18px;
 }
 
+.view-details:hover {
+  cursor: pointer;
+}
+
 /* main content area style implements */
 #content_left {
   width: 480px;
@@ -165,7 +169,7 @@ p {
 #content_left #about_us .about_us_h2 {
   font-weight: bold;
   font-size: 25px;
-  background: url(images/about_icon.png) no-repeat;
+  background: url(../images/about_icon.png) no-repeat;
   background-position: left center;
   padding-left: 40px;
 }
@@ -188,7 +192,7 @@ p {
 #content_right .content_right_h2 {
   font-weight: bold;
   font-size: 25px;
-  background: url(images/latest_work.png) no-repeat;
+  background: url(../images/latest_work.png) no-repeat;
   background-position: left center;
   padding-left: 40px;
 }
@@ -212,7 +216,7 @@ p {
 
 /* footer top area style implements */
 .footer_top_bg {
-  background: url(images/footer_r1.png) repeat-x;
+  background: url(../images/footer_r1.png) repeat-x;
   background-position: center;
   background-size: cover;
 }
@@ -232,14 +236,14 @@ p {
 .single_footer_area h2 {
   font-weight: bold;
   font-size: 25px;
-  background: url(images/recent_post.png) no-repeat;
+  background: url(../images/recent_post.png) no-repeat;
   background-position: left center;
   padding-left: 40px;
   color: white;
 }
 
 .single_footer_area ul li {
-  background: url(images/right_icon.png) no-repeat;
+  background: url(../images/right_icon.png) no-repeat;
   background-position: left center;
   padding: 10px 40px;
 }
@@ -249,11 +253,11 @@ p {
 }
 
 .single_footer_area ul li a:hover {
-  color: #515151;
+  color: white;
 }
 
 .twitter_section {
-  background: url(images/twitter_bg_shape.png) no-repeat;
+  background: url(../images/twitter_bg_shape.png) no-repeat;
 }
 
 .twitter_section p {
@@ -266,6 +270,9 @@ p {
   padding: 10px;
   color: #6e9220;
 }
+.twitter_section p a:hover {
+  color: #82b810;
+}
 
 .twitter_section img {
   margin-left: 215px;
@@ -273,7 +280,7 @@ p {
 
 /* footer section style implements */
 .footer_bg {
-  background: url(images/footer_bg_down.png) repeat-x;
+  background: url(../images/footer_bg_down.png) repeat-x;
   background-position: center;
   background-size: cover;
 }
